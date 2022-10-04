@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.1.2"
+  },
+  "name": "team-profile-generator",
+  "description": "License is MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfhill24/Team-Profiile-Generator.git"
+  },
+  "keywords": [
+    "NA"
+  ],
+  "author": "Shelly Foxworth-Hill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfhill24/Team-Profiile-Generator/issues"
+  },
+  "homepage": "https://github.com/sfhill24/Team-Profiile-Generator#readme"
+}
