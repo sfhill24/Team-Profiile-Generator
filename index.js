@@ -28,15 +28,39 @@ function promptManager() {
             name: "officeNumber",
             message: "Please enter the manager's phone number."
         },
+
     ])
         .then(managerInput => {
             const { name, id, email, officeNumber } = managerInput;
             const manager = new Manager(name, id, email, officeNumber);
             team.push(manager);
             console.log(manager);
+
+            menuPrompt();
         })
 
 }
+
+//function to ask if another employee is to be added and/or generate team
+function menuPrompt() {
+    inquirer.prompt([{
+        type: "list",
+        name: "answer",
+        message: "Would you like to add another team member?",
+        choices: ["Yes", "No, generate team"]
+    }])
+        .then(userAnswer => {
+            const { answer } = userAnswer;
+
+            if (answer == "Yes") {
+                promptEmployee();
+            }
+            else { 
+                console.log(team);
+            }
+        })
+}
+
 //function to add an employee
 function promptEmployee() {
     return inquirer.prompt([
@@ -86,6 +110,7 @@ function promptEmployee() {
                 const engineer = new Engineer(name, id, email, gitHub);
                 team.push(engineer);
                 console.log(engineer);
+                menuPrompt();
             })
     }
 
@@ -118,13 +143,14 @@ function promptEmployee() {
                 const intern = new Intern(name, id, email, school);
                 team.push(intern);
                 console.log(intern);
+                menuPrompt();
             })
 
     }
 }
 
 function init() {
-    promptEmployee();
+    promptManager();
 }
 
 init();
