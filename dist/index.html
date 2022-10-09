@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/9bfb670082.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9bfb670082.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 
   <title>Team Profile</title>
@@ -17,51 +17,53 @@
 
 <body>
   <header class="header">
-    <nav class=""> <h1 >My Team</h1></nav>
+    <nav class="">
+      <h1>My Team</h1>
+    </nav>
   </header>
-
-<div class="container">
-<div class="row justify-content-center">
-
-  <div class="card card-style" style="width: 18rem;">
-    <div class="card-header"> 
-      <div>Bob</div>
-    <i class="fa-solid fa-mug-hot"></i>
-      Manager
+  <!--Employee Card Section-->
+  <div class="container">
+    <div class="row justify-content-center">
+      <!--Manager card-->
+      <div class="card card-style" style="width: 18rem;">
+        <div class="card-header">
+          <div>Bob</div>
+          <i class="fa-solid fa-mug-hot"></i>
+          Manager
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="id">ID: </li>
+          <li class="list-group-item" id="email">Email: <a href=> </a></li>
+          <li class="list-group-item" id="officeNumber">Office Number:</li>
+        </ul>
+      </div>
+      <!--Engineer Card-->
+      <div class="card card-style" style="width: 18rem;">
+        <div class="card-header">
+          <div>Sam</div>
+          <i class="fa-solid fa-glasses"></i>
+          Engineer
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="id">ID: </li>
+          <li class="list-group-item" id="email">Email: <a href="mailto:sfhill24@gmail.com">sfhill24@gmail.com</a></li>
+          <li class="list-group-item" id="github">GitHub: <a href="https://github.com/sfhill24">sfhill24</a></li>
+        </ul>
+      </div>
+      <!--Intern card-->
+      <div class="card card-style" style="width: 18rem;">
+        <div class="card-header">
+          <div>Jim</div>
+          <i class="fa-solid fa-user-graduate"></i>
+          Intern
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="id">ID: </li>
+          <li class="list-group-item" id="email">Email: <a href=> </a></li>
+          <li class="list-group-item" id="school">School:</li>
+        </ul>
+      </div>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item" id="id">ID: </li>
-      <li class="list-group-item" id="email">Email: <a href=>   </a></li>
-      <li class="list-group-item" id="officeNumber">Office Number:</li>
-    </ul>
-  </div>
-
-  <div class="card card-style" style="width: 18rem;">
-    <div class="card-header"> 
-      <div>Sam</div>
-      <i class="fa-solid fa-glasses"></i>
-      Engineer
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item" id="id">ID: </li>
-      <li class="list-group-item" id="email">Email: <a href="mailto:sfhill24@gmail.com">sfhill24@gmail.com</a></li>
-      <li class="list-group-item" id="github">GitHub: <a href="https://github.com/sfhill24">sfhill24</a></li>
-    </ul>
-  </div>
-
-  <div class="card card-style" style="width: 18rem;">
-    <div class="card-header"> 
-      <div>Jim</div>
-      <i class="fa-solid fa-user-graduate"></i>
-      Intern
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item" id="id">ID: </li>
-      <li class="list-group-item" id="email">Email: <a href=>   </a></li>
-      <li class="list-group-item" id="school">School:</li>
-    </ul>
-  </div>
-</div>
 </body>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
