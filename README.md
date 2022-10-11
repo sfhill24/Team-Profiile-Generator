@@ -21,8 +21,7 @@
   User should clone the GitHub repository and downloand Node. 
   
   ## Usage
-  Answer questions from the command line to generate your team profile. Click the link to see the walkthrough video. https://drive.google.com/file/d/1RSoL2vdQ-iC3Rvmd1T-n0DpuN10ryBYd/view
-  
+  Answer questions from the command line to generate your team profile. Click the link to see the walkthrough video.    https://drive.google.com/file/d/1c2bjStoXnmldCAodG52h3vF2DIxKsY2Z/view
   ## Collaborators
   None
   
