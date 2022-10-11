@@ -3,7 +3,7 @@
   ![badge](https://img.shields.io/badge/License-MIT-blue.svg)<br />
 
   ## Description
-  An application that takes user input and generates a team profile
+  This application that takes user input and generates a team profile.
 
 ![image](https://user-images.githubusercontent.com/49098706/195142694-c7a56c47-88aa-4b2f-a5fb-276e391c6fe0.png)
 
