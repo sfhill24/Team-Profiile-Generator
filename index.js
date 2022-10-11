@@ -55,7 +55,6 @@ function menuPrompt() {
                                     const { name, id, email, gitHub } = engineerInput;
                                     const engineer = new Engineer(name, id, email, gitHub);
                                     team.push(engineer);
-                                    console.log(engineer);
                                     menuPrompt();
                                 })
                         }
@@ -65,7 +64,6 @@ function menuPrompt() {
                                     const { name, id, email, school } = internInput;
                                     const intern = new Intern(name, id, email, school);
                                     team.push(intern);
-                                    console.log(intern);
                                     menuPrompt();
                                 })
                         }
@@ -153,7 +151,6 @@ function init() {
             const { name, id, email, officeNumber } = managerInput;
             const manager = new Manager(name, id, email, officeNumber);
             team.push(manager);
-            console.log(manager);
 
             menuPrompt()
         })
